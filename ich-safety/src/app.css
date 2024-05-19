@@ -1,3 +1,14 @@
+@import '@fontsource-variable/space-grotesk';
+
 @tailwind utilities;
 @tailwind components;
 @tailwind base;
+
+:root {
+    --r-main-font: 'Space Grotesk Variable';
+    --r-heading-font: 'Space Grotesk Variable';
+}
+
+section {
+    padding-top: 100px;
+}
